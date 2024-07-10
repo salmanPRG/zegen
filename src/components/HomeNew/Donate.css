@@ -1,0 +1,60 @@
+.image-container {
+    background-image: url("../Assets/donate.jpg");
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heart-icon1 {
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bf0a30;
+    border-radius: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .heart-icon1 svg {
+    font-size: 40px;
+  }
+  
+  .image-container h1 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+  }
+  
+  .image-container p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-family: "brush Script MT";
+    font-style: italic;
+    font-size: 25px;
+  }
+  
+  .donation-btn button {
+    background-color: #bf0a30;
+    color: white;
+    border: 3px solid #bf0a30;
+    border-radius: 4px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .donation-btn button:hover {
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: transparent;
+  }

@@ -1,0 +1,135 @@
+.contain1 {
+    background-image: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url('../Assets/Group-Prayer-article.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+  }
+  
+  .contain1 h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #bf0a30;
+  }
+  
+  
+  .contain1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: white;
+  }
+  
+  .contain1 p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  
+  .contain2 {
+    background-image: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url('../Assets/childrens_ministry-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+  }
+  
+  .contain2 h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #bf0a30;
+  }
+  
+  .contain2 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: white;
+  }
+  
+  .contain3 p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+
+  
+  .contain3 {
+    background-image: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url('../Assets/women_ministry-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+  }
+  
+  .contain3 h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #bf0a30;
+  }
+  
+  .contain3 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: white;
+  }
+  
+  .contain3 p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 150px;
+  }
+  
+  .Button button {
+    background-color: #bf0a30;
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .Button :hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 5px;
+  }

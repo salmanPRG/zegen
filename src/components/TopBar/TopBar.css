@@ -1,0 +1,186 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.2px solid grey;
+  background: black;
+  height: 50px;
+  width: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+
+.top-bar .social-icons svg {
+  border-right: 0.2px solid grey;
+  height: 50px;
+  padding-right: 13px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 130px;
+}
+
+.location span {
+  margin-left: 5px;
+}
+
+.social-icons {
+  border-right: 0.2px solid grey;
+  display: flex;
+  font-size: 30px;
+  gap: 20px;
+  color: white;
+  padding-right: 130px;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons svg:hover {
+  color: #0073e6;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.bar{
+  width: 100%;
+  height: 50px;
+  transition: 0.5s;
+}
+
+.search-bar input {
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+}
+
+.search-bar {
+  border: none;
+  margin-right: 15px;
+  color: red;
+  font-size: 30px;
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bar button {
+  font-size: 18px;
+  font-weight: 650;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: relative;
+  top: -45px;
+  right: -1480px;
+  color: #Bf0a30;
+  background-color: white;
+}
+
+@media (max-width: 1200px) {
+  .location {
+    padding-left: 100px;
+  }
+
+  .social-icons {
+    padding-right: 100px;
+  }
+
+  .bar button {
+    right: -1280px;
+  }
+}
+
+@media (max-width: 992px) {
+  .location {
+    padding-left: 80px;
+  }
+
+  .social-icons {
+    padding-right: 80px;
+  }
+
+  .bar button {
+    right: -1080px;
+  }
+}
+
+@media (max-width: 768px) {
+  .location {
+    padding-left: 50px;
+  }
+
+  .social-icons {
+    padding-right: 50px;
+  }
+
+  .bar button {
+    right: -800px;
+  }
+}
+
+@media (max-width: 576px) {
+  .location {
+    padding-left: 20px;
+  }
+
+  .social-icons {
+    padding-right: 20px;
+    gap: 10px;
+    font-size: 24px;
+  }
+
+  .bar button {
+    right: -400px;
+  }
+}
+
+@media (max-width: 375px) {
+  .top-bar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .location, .social-icons {
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .social-icons {
+    border: none;
+    gap: 5px;
+  }
+
+  .bar button {
+    right: -200px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .location {
+    padding-left: 150px;
+  }
+
+  .social-icons {
+    padding-right: 150px;
+  }
+
+  .bar button {
+    right: -1580px;
+  }
+}

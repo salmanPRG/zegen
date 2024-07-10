@@ -1,0 +1,28 @@
+  .event-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .map3 {
+    display: flex;
+    height: 350px;
+    width: 1190px;
+  }
+  
+  .map3 iframe {
+    width: 1190px;
+  }
+
+@media only screen and (max-width: 768px) {
+  .event-map {
+    height: 50vh;
+    margin-bottom: 30px;
+  }
+  .map3 {
+    height: 250px;
+    width: 90%;
+  };
+}

@@ -1,0 +1,58 @@
+.event-container {
+    background-image: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url('../Assets/childrens_ministry-1.jpg');
+    height: 250px;
+}
+
+.info6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.event-container span {
+    color: #bf0a30;
+}
+
+.event-container p {
+    color: white;
+}
+
+.event-container h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.cross1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    bottom: -47px;
+    left: 0;
+    right: 0;
+    background-color: #bf0a30;
+    width: 90px;
+    height: 90px;
+    z-index: 9;
+    margin: auto;
+    border-radius: 50%;
+    border: solid #fff 6px;
+    border-top-left-radius: 0;
+    transform: rotate(45deg);
+}
+
+.cross2 svg {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 100;
+    height: 70px;
+    width: 60px;
+    transform: rotate(315deg);
+}

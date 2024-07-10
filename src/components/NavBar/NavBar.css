@@ -1,0 +1,133 @@
+.navbar {
+    background:green;
+}
+
+.navbar-logo img {
+  height: 50px;
+  padding-left: 90px;
+}
+
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  padding-top: 5px;
+  padding-left: 100px;
+}
+
+.nav-element li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.donate-button {
+  background-color: #ff4500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.donate-button:hover {
+  background-color: #ff6347;
+}
+
+.navbar-item .dropdown {
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 500px;
+  background-color: white;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 500;
+}
+
+.blog-drop1 {
+  width: 200px;
+  border-bottom: 0.1px solid rgb(237, 237, 237);
+}
+
+.blog-drop1 svg{
+  position: relative;
+  right: -90px;
+  font-size: 13px;
+}
+
+.blog-drop2 {
+  width: 200px;
+  border-bottom: 0.1px solid rgb(237, 237, 237);
+}
+
+.blog-drop2 svg{
+  position: relative;
+  right: -57px;
+  font-size: 13px;
+}
+
+.blog-drop3 {
+  width: 200px;
+}
+
+.blog-drop3 svg{
+  position: relative;
+  right: -76px;
+  font-size: 13px;
+}
+
+.page-drop1 {
+  width: 180px;
+  border-bottom: 0.1px solid rgb(237, 237, 237);
+}
+
+.page-drop2 {
+  width: 180px;
+  border-bottom: 0.1px solid rgb(237, 237, 237);
+}
+
+.page-drop2 svg{
+  position: relative;
+  right: -120px;
+  font-size: 13px;
+}
+
+.page-drop3 {
+  width: 180px;
+}
+
+.page-drop3 svg{
+  position: relative;
+  right: -118px;
+  font-size: 13px;
+}
+
+.navbar-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown a {
+  color: black;
+}
+
+.donate-button {
+  background-color: #bf0a30;
+  color: #fff;
+  position: relative;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+  background-color: #a30927;
+}
+  

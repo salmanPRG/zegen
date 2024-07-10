@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.donate-container {
+    background-image: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url('../Assets/childrens_ministry-1.jpg');
+}
+
+.info1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.donate-container p {
+    color: #bf0a30;
+}
+
+.donate-container span {
+    color: white;
+}
+
+.donate-container h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.cross1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    bottom: -47px;
+    left: 0;
+    right: 0;
+    background-color: #bf0a30;
+    width: 90px;
+    height: 90px;
+    z-index: 9;
+    margin: auto;
+    border-radius: 50%;
+    border: solid #fff 6px;
+    border-top-left-radius: 0;
+    transform: rotate(45deg);
+}
+
+.cross2 svg {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 100;
+    height: 70px;
+    width: 60px;
+    transform: rotate(315deg);
+}
+
+.main-Donate {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 50px;
+}
+
+.section1 {
+    align-items: center;
+    border: 0.5px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.section1 h4 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section1 p {
+    color: grey;
+    cursor: pointer;
+}
+
+.section1 p:hover {
+    color: #bf0a30;
+}
+
+.Donate-card1 {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    margin-bottom: 10px;
+}
+
+.Donate-card1 h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Donate-card2 {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    margin-bottom: 10px;
+}
+
+.Donate-card2 h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Donate-card3 {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    margin-bottom: 10px;
+}
+
+.Donate-card3 h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Donate-card4 {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    margin-bottom: 10px;
+}
+
+.Donate-card4 h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Donate-card5 {
+    margin-bottom: 10px;
+}
+
+.Donate-card5 h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section2 {
+    border-radius: 5px;
+}
+
+.head {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.head h5{
+    font-size: 15px;
+    color: #bf0a30;
+}
+
+.head h2{
+    font-weight: 750;
+}
+
+.head p{
+    color: #828282;
+}
+
+.donation {
+    margin-bottom: 20px;
+}
+
+.donation p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.donation input {
+    justify-content: center;
+    margin: 20px 0px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-details1 {
+    margin-bottom: 20px;
+}
+
+.user-details1 input {
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-details1 label {
+    color: #828282;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.payments {
+    border: 1px solid #d2d2d2;
+    margin-bottom: 20px;
+}
+
+.user-details1 select {
+    padding-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #d2d2d2;
+    font-size: 16px;
+}
+
+.payments{
+    padding-left: 20px;
+}
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.checkbox-container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}

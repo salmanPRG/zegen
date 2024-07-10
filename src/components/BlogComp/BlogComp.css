@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 620px;
+    right: 330px;
+    height: 60px;
+    gap: 5px;
+}
+
+.pagination button {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.pagination button:hover{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: -300px;
+}
+
+.container3 {
+    margin: 0px;
+}
+
+.blog-container {
+    background-image: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url('../Assets/childrens_ministry-1.jpg');
+    width: 100%;
+    height: 250px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.blog-container p {
+    color: white;
+}
+
+.blog-container h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.cross1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    bottom: -47px;
+    left: 0;
+    right: 0;
+    background-color: #bf0a30;
+    width: 90px;
+    height: 90px;
+    z-index: 9;
+    margin: auto;
+    border-radius: 50%;
+    border: solid #fff 6px;
+    border-top-left-radius: 0;
+    transform: rotate(45deg);
+}
+
+.cross2 svg {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 100;
+    height: 70px;
+    width: 60px;
+    transform: rotate(315deg);
+}
+
+.main-blog {
+    height: 1450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+.part1 {
+    height: 1420px;
+    width: 800px;
+    border-radius: 5px;
+    display: flex;
+    gap: 30px;
+}
+
+.cards4 {
+    height: 550px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cards4 img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+}
+
+.detail {
+    padding: 10px 30px;
+    height: 250px;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.detail a {
+    font-style: italic;
+    font-size: 15px;
+    color: #959494;
+    border-bottom: 0.5px solid #959494;
+    gap: 10px;
+}
+
+.detail h4 {
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.detail h4:hover {
+    color: #bf0a30;
+}
+
+.detail h6 {
+    color: #959494;
+    font-weight: 300;
+    padding-top: 15px;
+
+}
+
+.detail span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #bf0a30;
+    border-bottom: 3px solid #bf0a30;
+}
+
+.detail span:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.cards5 {
+    height: 550px;
+    width: 360px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cards5 img {
+    height: 250px;
+    width: 360px;
+    border-radius: 10px 10px 0 0;
+}
+
+.part3 {
+    height: 1420px;
+    width: 360px;
+    gap: 30px;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    right: 170px;
+}
+
+.search-bar2 {
+    height: 116px;
+    width: 390px;
+    border: 0.5px solid #ececec;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-info {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.search-info input {
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0.5px solid #ececec;
+    padding-left: 10px;
+}
+
+.search-info button {
+    padding: 13px 15px;
+    border: none;
+    background-color: #bf0a30;
+    color: white;
+    font-weight: 200;
+    border-radius: 0px 5px 5px 0;
+    position: relative;
+    top: -50px;
+    left: 254px;
+}
+
+.categories {
+    height: 330px;
+    width: 390px;
+    border: 0.5px solid #ececec;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px 40px;
+}
+
+.categories ul {
+    padding: 0;
+}
+
+.categories ul li {
+    list-style-type: none;
+    border-bottom: 0.5px dotted #ececec;
+    font-size: 17px;
+    padding-bottom: 7px;
+    color: #959494;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.categories svg {
+    font-size: 20px;
+    color: #bf0a30;
+    padding-bottom: 3px;
+}
+
+.popular-post {
+    height: 490px;
+    width: 390px;
+    border: 0.1px solid #ececec;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.popular-post h2 {
+    margin-bottom: 20px;
+    padding-left: 50px;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.cards6 {
+    height: 100px;
+    width: 310px;
+    margin-left: 38px;
+    margin-bottom: 8px;
+}
+
+.icons3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bf0a30;
+    background-color: rgb(191 10 48 / 8%);
+    height: 80px;
+    width: 80px;
+}
+
+.icons3 svg {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.icons3 svg:hover {
+    color: black;
+}
+
+.post-info1 {
+    width: 190px;
+    height: 80px;
+    left: 85px;
+    position: relative;
+    top: -80px;
+}
+
+.post-info1 h6 {
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.post-info1 span {
+    font-style: italic;
+    font-size: 13px;
+    padding-left: 5px;
+    color: #959494;
+
+}
+
+.post-info1 h6:hover {
+    color: #bf0a30;
+}
+
+.post-info1 svg {
+    color: #bf0a30;
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+.cards7 {
+    height: 100px;
+    width: 310px;
+    margin-left: 38px;
+    margin-bottom: 8px;
+}
+
+.cards8 {
+    height: 100px;
+    width: 310px;
+    margin-left: 38px;
+    margin-bottom: 8px;
+}
+
+.icons4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bf0a30;
+    background-color: rgb(191 10 48 / 8%);
+    height: 80px;
+    width: 80px;
+}
+
+.icons4 svg {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.icons4 svg:hover {
+    color: black;
+}
+
+.image1 {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+}
+
+.image1 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.cards9 {
+    height: 100px;
+    width: 310px;
+    margin-left: 38px;
+    margin-bottom: 8px;
+}
+
+.image2 {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 90px;
+}
+
+.image2 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.tag-list {
+    height: 200px;
+    width: 390px;
+    border: 0.5px solid #ececec;
+    border-radius: 5px;
+    margin-bottom: 0;
+    padding: 25px;
+}
+
+.tag-card {
+    gap: 10px;
+    padding: 0px 80px 0px 0px;
+    height: 110px;
+    width: 339px;
+}
+
+.tag-card ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.tag-card li {
+    border: 0.1px solid #ececec;
+    list-style-type: none;
+}
+
+.tag1 {
+    height: 30px;
+    width: 180px;
+    padding: 2px 5px;
+}
+
+.tag2 {
+    height: 30px;
+    width: 180px;
+    padding: 2px 5px;
+}
+
+.tag3 {
+    height: 30px;
+    width: 180px;
+    padding: 2px 5px;
+}
+
+.tag4 {
+    position: relative;
+    top: 40px;
+    right: 247px;
+    height: 30px;
+    width: 180px;
+    padding: 2px 5px;
+}
+
+.tag5 {
+    position: relative;
+    top: 40px;
+    right: 249px;
+    height: 30px;
+    width: 180px;
+    padding: 2px 5px;
+}
+
+.tag6 {
+    position: relative;
+    top: 40px;
+    right: 251px;
+    height: 30px;
+    width: 180px;
+    padding: 2px 5px;
+}
+
+.tag7 {
+    position: relative;
+    top: 78px;
+    right: 444px;
+    height: 30px;
+    width: 180px;
+    padding: 2px 5px;
+}
+
+.tag-card li:hover {
+    color: #fff;
+    background-color: #bf0a30;
+    transition: ease-in 0.2s;
+}

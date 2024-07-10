@@ -1,0 +1,107 @@
+.container8 {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container8-1 {
+    background: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url("../Assets/events_imgs1-1-1170x694.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+  }
+  
+  .card21 {
+  
+    height: 370px;
+    width: auto;
+    border: 1px solid #bf0a30;
+    background-color: #bf0a30;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) translate(0, -20px);
+    animation: moveBox 1s infinite alternate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    color: white;
+  }
+  
+  @keyframes moveBox {
+    0% {
+      transform: translate(0, -40px);
+    }
+  
+    100% {
+      transform: translate(0, -20px);
+    }
+  }
+  
+  .discription1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    height: 300px;
+  }
+  
+  .discription1 p {
+    font-weight: 500;
+    color: #bf0a30;
+  }
+  
+  .discription1 h2 {
+    color: white;
+    padding-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  .discription1 span {
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .discription1 button {
+    padding: 10px 20px;
+    margin-top: 25px;
+    width: 120px;
+    border-radius: 8px;
+  }
+  
+  .discription1 button:hover{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+  }
+  
+  .background-svg {
+    transform: rotate(180deg);
+    height: 100px;
+    fill: #fff;
+    position: relative;
+    bottom: 100px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .background-svg svg {
+      height: 101px;
+      width: 1200px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .background-svg svg {
+      height: 103px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .background-svg svg {
+      height: 104px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .background-svg svg {
+      height: 104px;
+    }
+  }

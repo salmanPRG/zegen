@@ -1,0 +1,32 @@
+.info8 {
+    display: flex;
+    width: 1200px;
+    margin-left: 140px;
+}
+
+.info6 ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.info6 ul li span,
+.info6 ul li label {
+    color: gray;
+}
+
+.info6 ul li {
+    color: #bf0a30;
+}
+
+.info7 {
+    width: 1200px;
+    margin-left: 160px;
+}
+
+.info7 {
+    color: gray;
+}
+

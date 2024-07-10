@@ -1,0 +1,119 @@
+.sermonsD-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.sermonsD1 {
+    height: 750px;
+    width: 1200px;
+}
+
+.sermonsD1 img {
+    height: 750px;
+    width: 1200px;
+    border-radius: 10px;
+}
+
+.sermonsD2 {
+    background-color: #bf0a30;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    right: -250px;
+    top: -75px;
+    height: 150px;
+    width: 1000px;
+}
+
+.sermonsD2 h5 {
+    position: relative;
+    top: 20px;
+    left: 730px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+}
+
+.sermonsD2 h4 {
+    position: relative;
+    left: 25px;
+    top: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sermons-icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    height: 50px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.sermons-icon .icon {
+    display: flex;
+    position: relative;
+    bottom: -60px;
+    right: 220px;
+    justify-content: center;
+    color: black;
+    background: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    height: 45px;
+    width: 45px;
+}
+
+.sermons-icon .icon:hover {
+    color: #bf0a30;
+}
+
+
+.sermons-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    height: 50px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.sermons-icons .icons {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+    bottom: -60px;
+    right: -420px;
+    justify-content: center;
+    color: black;
+    background: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    height: 45px;
+    width: 45px;
+}
+
+.sermons-icons .icons:hover {
+    color: #bf0a30;
+}
+
+
+.sermonsD3 {
+    content: "";
+    width: 20px;
+    height: 170%;
+    background: #fff;
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0;
+    top: -70px;
+    transform: rotate(35deg);
+}

@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container1 {
+  margin: 0px;
+}
+
+.contact-container {
+  background-image: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url('../Assets/childrens_ministry-1.jpg');
+  width: 100%;
+  height: 250px;
+  margin-bottom: 70px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.contact-container p {
+  color: #bf0a30;
+}
+
+.contact-container span {
+  color: white;
+}
+
+.contact-container h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.cross1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  bottom: -47px;
+  left: 0;
+  right: 0;
+  background-color: #bf0a30;
+  width: 90px;
+  height: 90px;
+  z-index: 9;
+  margin: auto;
+  border-radius: 50%;
+  border: solid #fff 6px;
+  border-top-left-radius: 0;
+  transform: rotate(45deg);
+}
+
+.cross2 svg {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 100;
+  height: 70px;
+  width: 60px;
+  transform: rotate(315deg);
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.cards1 {
+  background-image: linear-gradient(rgba(178, 50, 50, 0.92), rgba(178, 50, 50, 0.92)), url("../Assets/women_ministry-1.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 380px;
+  border-radius: 22px;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+.location-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.location-contact svg {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 100;
+  height: 50px;
+  width: 50px;
+}
+
+.cards1 {
+  text-align: center;
+}
+
+.cards1 h4 {
+  text-align: center;
+  font-weight: 900;
+}
+
+.cards2 {
+  background-image: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url("../Assets/Group-Prayer-article.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 380px;
+  border-radius: 22px;
+  padding: 50px;
+  color: white;
+}
+
+.headphone-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.headphone-contact svg {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 100;
+  height: 50px;
+  width: 50px;
+}
+
+.cards2 p {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.cards2 p:hover {
+  color: #bf0a30;
+}
+
+.cards2 h4 {
+  text-align: center;
+  font-weight: 900;
+}
+
+.cards3 {
+  background-image: linear-gradient(rgba(0, 22, 47, 0.92), rgba(0, 22, 47, 0.92)), url("../Assets/music_ministry-2.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 380px;
+  border-radius: 22px;
+  padding: 50px;
+  color: white;
+}
+
+.mail-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.mail-contact svg {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 100;
+  height: 50px;
+  width: 50px;
+}
+
+.cards3 p {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.cards3 p:hover {
+  color: #bf0a30;
+}
+
+.cards3 h4 {
+  text-align: center;
+  font-weight: 900;
+}
+
+.contact-form {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: wheat;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+.contact-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  border-radius: 12px;
+  height: 500px;
+  width: 500px;
+}
+
+.contact-image img {
+  height: 500px;
+  width: 500px;
+  border-radius: 0px 12px 12px 0;
+  position: relative;
+  bottom: 490px;
+  left: 845px;
+}
+
+.form-group {
+  width: 60%;
+  padding: 13px;
+}
+
+.form-group textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 50px;
+  width: 100px;
+  position: relative;
+  top: -10px;
+  right: -22px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #bf0a30;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 40px;
+}
+
+.map1 {
+  display: flex;
+  height: 350px;
+  width: 1190px;
+}
+
+.map1 iframe {
+  height: 350px;
+  width: 1190px;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .contact-details,
+  .contact-form {
+    margin: 0;
+    min-width: 100%;
+  }
+}
